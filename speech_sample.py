@@ -114,7 +114,7 @@ def main(speech_file):
         print('Result:')
         for alternative in result['alternatives']:
             print(u'  Alternative: {}'.format(alternative['transcript']))
-            #nlp_text(alternative['transcript'])
+            nlp_text(alternative['transcript'])
     # [END send_request]
 
 
