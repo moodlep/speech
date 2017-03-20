@@ -19,6 +19,8 @@ no effect
 pip install --upgrade google-api-python-client
 this upgraded the client and code sample was ok after this.
 
+pip install --upgrade google-cloud-language
+
 3. ffmpeg used to extract sound from ML intro video was not so successful.
 The conversion worked but the quality was not good in flac format and did not translate well.
 
